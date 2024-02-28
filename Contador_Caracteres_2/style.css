@@ -9,10 +9,15 @@ textarea{
     resize: none;
 }
 
+p{
+    text-align: left;
+}
+
 #fields{
     background-color: rgb(255, 255, 255);
     display: flex; 
     flex-direction: column; 
+    text-align: center;
     gap: 10px; 
     width: 500px; 
     margin: auto; 
@@ -22,8 +27,10 @@ textarea{
 }
 
 #buttons{
-    text-align: center; 
+    width: 949px;
+    margin: 0 auto;
     display: grid;
+    text-align: center;
     grid-template: auto / auto auto;
 }
 
